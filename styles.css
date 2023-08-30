@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    flex: 1;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    padding: 16px;
+    background-color: #4f6d7a;
+    margin: 0;
+}
+
+p{
+    font-size: 32px;
+    padding: 8px;
+    margin: 12px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0d6df;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-selection {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.choices{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    background-color: #e8f1f2;
+}
+
+.button-container {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    background-color: #e8f1f2;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+}
